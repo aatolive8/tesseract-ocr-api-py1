@@ -1,3 +1,6 @@
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"  # Add this line
+
 from flask import Flask, request, jsonify
 import pytesseract
 from PIL import Image
